@@ -1,11 +1,12 @@
-from junior_python import JuniorDeveloper
+from junior_python import Developer
+
 
 def main():
     name = "Katarzyna Nyczka"
-    level = "Junior"
-    programming_language = "Python"
-    new_developer = JuniorDeveloper(name, level, programming_language)
-    new_developer.seeking_job()
+    level = "junior"
+    programming_language = "python"
+    developer = Developer(name, level, programming_language)
+    developer.seeking_job()
     print("Help if you can, thanks :)")
 
 
